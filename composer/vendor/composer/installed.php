@@ -20,12 +20,12 @@
             'dev_requirement' => false,
         ),
         'ezyang/htmlpurifier' => array(
-            'pretty_version' => 'v4.13.0',
-            'version' => '4.13.0.0',
+            'pretty_version' => 'v4.14.0',
+            'version' => '4.14.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../ezyang/htmlpurifier',
             'aliases' => array(),
-            'reference' => '08e27c97e4c6ed02f37c5b2b20488046c8d90d75',
+            'reference' => '12ab42bd6e742c70c0a52f7b82477fcd44e64b75',
             'dev_requirement' => false,
         ),
         'maennchen/zipstream-php' => array(
@@ -65,12 +65,12 @@
             'dev_requirement' => false,
         ),
         'phpoffice/phpspreadsheet' => array(
-            'pretty_version' => '1.19.0',
-            'version' => '1.19.0.0',
+            'pretty_version' => '1.20.0',
+            'version' => '1.20.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../phpoffice/phpspreadsheet',
             'aliases' => array(),
-            'reference' => 'a9ab55bfae02eecffb3df669a2e19ba0e2f04bbf',
+            'reference' => '44436f270bb134b4a94670f3d020a85dfa0a3c02',
             'dev_requirement' => false,
         ),
         'psr/http-client' => array(
@@ -119,12 +119,12 @@
             'dev_requirement' => false,
         ),
         'tecnickcom/tc-lib-barcode' => array(
-            'pretty_version' => '1.17.7',
-            'version' => '1.17.7.0',
+            'pretty_version' => '1.17.8',
+            'version' => '1.17.8.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../tecnickcom/tc-lib-barcode',
             'aliases' => array(),
-            'reference' => '5975807c1cc9d9b50377529f22a4fdb435e75b6a',
+            'reference' => '9f99aa4ef99d5f5f298ceb584dbbb49424a49aff',
             'dev_requirement' => false,
         ),
         'tecnickcom/tc-lib-color' => array(
