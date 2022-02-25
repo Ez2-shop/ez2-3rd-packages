@@ -1,18 +1,24 @@
 <?php
-final class EZ2_3P
+final class Ez2_3P
 {
-    private static $initiated = false;
+    protected static $_instance = null;
 
-    public static function init()
+    public static function instance()
     {
-        if (!self::$initiated) {
-            self::$initiated = true;
-
-            add_filter('ez2/update_plugin_list', [__CLASS__, 'add_plugin'], 1);
+        if (is_null(self::$_instance)) {
+            self::$_instance = new self();
+            self::$_instance->do_init();
         }
+
+        return self::$_instance;
     }
 
-    public static function add_plugin($plugin_list)
+    protected function do_init()
+    {
+        add_filter('ez2/update_plugin_list', [$this, 'add_plugin'], 1);
+    }
+
+    public function add_plugin($plugin_list)
     {
         $plugin_list[] = [
             'name' => 'Ez2 資源包',
