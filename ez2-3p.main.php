@@ -5,7 +5,7 @@ final class Ez2_3P
 
     public static function instance()
     {
-        if (is_null(self::$_instance)) {
+        if (self::$_instance === null) {
             self::$_instance = new self();
             self::$_instance->do_init();
         }
