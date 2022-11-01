@@ -1,0 +1,11 @@
+{
+    "require": {
+        "phpoffice/phpspreadsheet": "1.*",
+        "tecnickcom/tc-lib-barcode": "1.*"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.19"
+        }
+    }
+}
