@@ -1,15 +1,15 @@
 <?php
 /**
  * Plugin Name: Ez2 資源包
- * Version: 1.0.13
+ * Version: 1.0.14
  * Author: Ez2.SHOP
  * Requires at least: 5.6
- * Requires PHP: 7.4.19
+ * Requires PHP: 8.0.0
  *
  * License: GPL v2 or later
  **/
 
-define('EZ2_3P_VERSION', '1.0.13');
+define('EZ2_3P_VERSION', '1.0.14');
 define('EZ2_3P_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('EZ2_3P_PLUGIN_URL', plugin_dir_url(__FILE__));
 
