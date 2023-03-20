@@ -4,7 +4,7 @@ final class Ez2_3P
 {
     protected static $_instance = null;
 
-    public static function instance()
+    public static function instance(): Ez2_3P
     {
         if (self::$_instance === null) {
             self::$_instance = new self();
@@ -14,7 +14,7 @@ final class Ez2_3P
         return self::$_instance;
     }
 
-    protected function do_init()
+    protected function do_init(): void
     {
         add_filter('ez2/update_plugin_list', [$this, 'add_plugin'], 1);
     }
