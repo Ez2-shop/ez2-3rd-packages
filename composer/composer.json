@@ -1,9 +1,10 @@
 {
     "require": {
-        "phpoffice/phpspreadsheet": "1.*",
-        "tecnickcom/tc-lib-barcode": "1.*"
+        "phpoffice/phpspreadsheet": "^1.28.0",
+        "tecnickcom/tc-lib-barcode": "^1.17.25"
     },
     "config": {
+        "optimize-autoloader": true,
         "platform": {
             "php": "8.0"
         }
