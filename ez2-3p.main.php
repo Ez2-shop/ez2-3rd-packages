@@ -2,7 +2,7 @@
 
 final class Ez2_3P
 {
-    protected static $_instance = null;
+    private static $_instance = null;
 
     public static function instance(): Ez2_3P
     {
