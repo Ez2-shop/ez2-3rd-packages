@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fe44b64c63a7a7699ee2c7931243cd4c",
+    "content-hash": "7a78d4c96e02c8124b34364ac8d03402",
     "packages": [
         {
             "name": "maennchen/zipstream-php",
@@ -904,16 +904,16 @@
         },
         {
             "name": "tecnickcom/tc-lib-barcode",
-            "version": "2.1.4",
+            "version": "2.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tecnickcom/tc-lib-barcode.git",
-                "reference": "80703c7b44d06e60467a50be91c4e59af9510850"
+                "reference": "6877202fe7b3f746f22032e22d454c60c3db20fc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tecnickcom/tc-lib-barcode/zipball/80703c7b44d06e60467a50be91c4e59af9510850",
-                "reference": "80703c7b44d06e60467a50be91c4e59af9510850",
+                "url": "https://api.github.com/repos/tecnickcom/tc-lib-barcode/zipball/6877202fe7b3f746f22032e22d454c60c3db20fc",
+                "reference": "6877202fe7b3f746f22032e22d454c60c3db20fc",
                 "shasum": ""
             },
             "require": {
@@ -992,7 +992,7 @@
             ],
             "support": {
                 "issues": "https://github.com/tecnickcom/tc-lib-barcode/issues",
-                "source": "https://github.com/tecnickcom/tc-lib-barcode/tree/2.1.4"
+                "source": "https://github.com/tecnickcom/tc-lib-barcode/tree/2.2.1"
             },
             "funding": [
                 {
@@ -1000,20 +1000,20 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-11-29T11:09:42+00:00"
+            "time": "2024-04-12T04:55:21+00:00"
         },
         {
             "name": "tecnickcom/tc-lib-color",
-            "version": "2.0.7",
+            "version": "2.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tecnickcom/tc-lib-color.git",
-                "reference": "7dbdfbba5c40deade2561911ca60d8851c527311"
+                "reference": "62a67d7795a3d303e5029dd3ffc7b2d5f8bf614b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tecnickcom/tc-lib-color/zipball/7dbdfbba5c40deade2561911ca60d8851c527311",
-                "reference": "7dbdfbba5c40deade2561911ca60d8851c527311",
+                "url": "https://api.github.com/repos/tecnickcom/tc-lib-color/zipball/62a67d7795a3d303e5029dd3ffc7b2d5f8bf614b",
+                "reference": "62a67d7795a3d303e5029dd3ffc7b2d5f8bf614b",
                 "shasum": ""
             },
             "require": {
@@ -1061,7 +1061,7 @@
             ],
             "support": {
                 "issues": "https://github.com/tecnickcom/tc-lib-color/issues",
-                "source": "https://github.com/tecnickcom/tc-lib-color/tree/2.0.7"
+                "source": "https://github.com/tecnickcom/tc-lib-color/tree/2.0.8"
             },
             "funding": [
                 {
@@ -1069,7 +1069,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2023-11-29T11:02:39+00:00"
+            "time": "2024-04-12T04:53:29+00:00"
         },
         {
             "name": "voku/anti-xss",
