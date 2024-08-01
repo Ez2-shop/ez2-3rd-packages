@@ -24,7 +24,7 @@ final class Ez2_3P
         $plugin_list[] = [
             'name' => 'Ez2 資源包',
             'slug' => 'ez2-3rd-packages',
-            'now_version' => EZ2_3P_VERSION
+            'now_version' => EZ2_3P_VERSION,
         ];
 
         return $plugin_list;
