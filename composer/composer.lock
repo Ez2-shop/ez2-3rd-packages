@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3fbbee0bfef2bcf4b3a6ba6a700452bb",
+    "content-hash": "fc7c5576aee3ed95b0a9de72a2b04336",
     "packages": [
         {
             "name": "maennchen/zipstream-php",
@@ -196,16 +196,16 @@
         },
         {
             "name": "phpoffice/phpspreadsheet",
-            "version": "2.2.1",
+            "version": "2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPOffice/PhpSpreadsheet.git",
-                "reference": "a3c5c9e7ce3a2a8577bfa9e69960fbccbd2d4a9e"
+                "reference": "ffbcee68069b073bff07a71eb321dcd9f2763513"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/a3c5c9e7ce3a2a8577bfa9e69960fbccbd2d4a9e",
-                "reference": "a3c5c9e7ce3a2a8577bfa9e69960fbccbd2d4a9e",
+                "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/ffbcee68069b073bff07a71eb321dcd9f2763513",
+                "reference": "ffbcee68069b073bff07a71eb321dcd9f2763513",
                 "shasum": ""
             },
             "require": {
@@ -294,9 +294,9 @@
             ],
             "support": {
                 "issues": "https://github.com/PHPOffice/PhpSpreadsheet/issues",
-                "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/2.2.1"
+                "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/2.2.2"
             },
-            "time": "2024-07-29T07:56:06+00:00"
+            "time": "2024-08-08T02:31:26+00:00"
         },
         {
             "name": "psr/http-client",
@@ -511,16 +511,16 @@
         },
         {
             "name": "tecnickcom/tc-lib-barcode",
-            "version": "2.2.1",
+            "version": "2.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tecnickcom/tc-lib-barcode.git",
-                "reference": "6877202fe7b3f746f22032e22d454c60c3db20fc"
+                "reference": "1ec056eb68daf8aab072d9d7908712d7144814fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tecnickcom/tc-lib-barcode/zipball/6877202fe7b3f746f22032e22d454c60c3db20fc",
-                "reference": "6877202fe7b3f746f22032e22d454c60c3db20fc",
+                "url": "https://api.github.com/repos/tecnickcom/tc-lib-barcode/zipball/1ec056eb68daf8aab072d9d7908712d7144814fa",
+                "reference": "1ec056eb68daf8aab072d9d7908712d7144814fa",
                 "shasum": ""
             },
             "require": {
@@ -529,7 +529,7 @@
                 "ext-gd": "*",
                 "ext-pcre": "*",
                 "php": ">=8.0",
-                "tecnickcom/tc-lib-color": "^2.0"
+                "tecnickcom/tc-lib-color": "^2.2"
             },
             "require-dev": {
                 "pdepend/pdepend": "2.13.0",
@@ -599,7 +599,7 @@
             ],
             "support": {
                 "issues": "https://github.com/tecnickcom/tc-lib-barcode/issues",
-                "source": "https://github.com/tecnickcom/tc-lib-barcode/tree/2.2.1"
+                "source": "https://github.com/tecnickcom/tc-lib-barcode/tree/2.2.3"
             },
             "funding": [
                 {
@@ -607,20 +607,20 @@
                     "type": "custom"
                 }
             ],
-            "time": "2024-04-12T04:55:21+00:00"
+            "time": "2024-08-18T14:47:12+00:00"
         },
         {
             "name": "tecnickcom/tc-lib-color",
-            "version": "2.0.8",
+            "version": "2.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/tecnickcom/tc-lib-color.git",
-                "reference": "62a67d7795a3d303e5029dd3ffc7b2d5f8bf614b"
+                "reference": "14fc157ae64767cc6761e9126f7ec7e5b27bf1cb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/tecnickcom/tc-lib-color/zipball/62a67d7795a3d303e5029dd3ffc7b2d5f8bf614b",
-                "reference": "62a67d7795a3d303e5029dd3ffc7b2d5f8bf614b",
+                "url": "https://api.github.com/repos/tecnickcom/tc-lib-color/zipball/14fc157ae64767cc6761e9126f7ec7e5b27bf1cb",
+                "reference": "14fc157ae64767cc6761e9126f7ec7e5b27bf1cb",
                 "shasum": ""
             },
             "require": {
@@ -668,7 +668,7 @@
             ],
             "support": {
                 "issues": "https://github.com/tecnickcom/tc-lib-color/issues",
-                "source": "https://github.com/tecnickcom/tc-lib-color/tree/2.0.8"
+                "source": "https://github.com/tecnickcom/tc-lib-color/tree/2.2.2"
             },
             "funding": [
                 {
@@ -676,7 +676,7 @@
                     "type": "custom"
                 }
             ],
-            "time": "2024-04-12T04:53:29+00:00"
+            "time": "2024-08-18T14:45:34+00:00"
         }
     ],
     "packages-dev": [],
