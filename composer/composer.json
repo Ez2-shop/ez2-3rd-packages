@@ -1,7 +1,7 @@
 {
     "require": {
-        "phpoffice/phpspreadsheet": "^3.4",
-        "tecnickcom/tc-lib-barcode": "^2.3"
+        "phpoffice/phpspreadsheet": "^3.5",
+        "tecnickcom/tc-lib-barcode": "^2.4"
     },
     "config": {
         "optimize-autoloader": true,
