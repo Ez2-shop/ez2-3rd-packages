@@ -1,10 +1,10 @@
 <?php
 
-final class Ez2_3P
+final class Ez2_3rd
 {
     private static $_instance = null;
 
-    public static function instance(): Ez2_3P
+    public static function instance(): Ez2_3rd
     {
         if (null === self::$_instance) {
             self::$_instance = new self();
@@ -24,7 +24,7 @@ final class Ez2_3P
         $plugin_list[] = [
             'name' => 'Ez2 資源包',
             'slug' => 'ez2-3rd-packages',
-            'now_version' => EZ2_3P_VERSION,
+            'now_version' => EZ2_3RD_VERSION,
         ];
 
         return $plugin_list;

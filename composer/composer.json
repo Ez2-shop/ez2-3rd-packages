@@ -1,6 +1,6 @@
 {
     "require": {
-        "phpoffice/phpspreadsheet": "^3.9.0",
+        "phpoffice/phpspreadsheet": "^4.2.0",
         "tecnickcom/tc-lib-barcode": "^2.4.0"
     },
     "config": {
