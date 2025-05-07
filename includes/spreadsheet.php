@@ -19,6 +19,13 @@ final class Ez2_3rd_Spreadsheet
 
     protected $sheet_idx;
 
+    public function __construct()
+    {
+        if (!defined('FS_CHMOD_FILE')) {
+            define('FS_CHMOD_FILE', (fileperms(ABSPATH . 'index.php') & 0777 | 0644));
+        }
+    }
+
     public function make_new(): void
     {
         $this->spreadsheet = new Spreadsheet();
@@ -154,6 +161,10 @@ final class Ez2_3rd_Spreadsheet
             call_user_func_array([$writer, $callback], $args);
         }
         $writer->save($file_path);
+
+        if (is_file($file_path)) {
+            @chmod($file_path, FS_CHMOD_FILE); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_chmod
+        }
     }
 
     public function read_file(string $file): void

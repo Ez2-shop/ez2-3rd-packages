@@ -132,7 +132,7 @@ final class Ez2_3rd_Barcode
         }
 
         if (is_file($file_path)) {
-            chmod($file_path, FS_CHMOD_FILE);
+            @chmod($file_path, FS_CHMOD_FILE); // phpcs:ignore WordPress.WP.AlternativeFunctions.file_system_operations_chmod
             return true;
         }
 
