@@ -5,7 +5,7 @@
  * Version: 1.3.1
  * Author: Ez2.SHOP
  * Requires at least: 6.7
- * Requires PHP: 8.1
+ * Requires PHP: 8.3
  *
  * License: GPL v3 or later
  **/
